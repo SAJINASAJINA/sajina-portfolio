@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Profile | Sajina S</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="/js/profile.js" defer></script>
+</head>
+
+<body class="auth-page">
+    <main class="auth-card">
+        <a href="/" class="auth-brand">
+            <span class="brand-logo">S</span> SAJINA S
+        </a>
+        <p class="eyebrow">ACCOUNT DASHBOARD</p>
+        <h1>Hello, <span class="gradient-text" id="profileName">Developer</span></h1>
+        <p class="auth-subtitle">You are logged in successfully.</p>
+        <div class="glass-card" style="padding:20px">
+            <p class="project-type">YOUR ACCOUNT</p>
+            <p id="profileEmail" style="margin-top:10px;overflow-wrap:anywhere"></p>
+            <p id="profileCreated" style="margin-top:8px;color:#a1abc4;font-size:12px"></p>
+            <p id="profileMessage" class="form-message" role="status"></p>
+        </div>
+        <button id="logoutButton" class="btn btn-outline auth-submit">
+            Logout ↗
+        </button>
+        <a href="/" class="back-link">← Back to portfolio</a>
+    </main>
+</body>
+
+</html>

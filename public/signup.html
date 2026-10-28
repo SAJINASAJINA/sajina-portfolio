@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Account | Sajina S</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="/js/auth.js" defer></script>
+</head>
+
+<body class="auth-page">
+    <main class="auth-card">
+        <a href="/" class="auth-brand"><span class="brand-logo">S</span> SAJINA S</a>
+        <p class="eyebrow">JOIN MY PORTFOLIO</p>
+        <h1>Create your <span class="gradient-text">account</span></h1>
+        <p class="auth-subtitle">Enter your details to get started.</p>
+
+        <form id="signupForm">
+            <label for="name">Full name</label>
+            <input id="name" name="name" type="text" placeholder="Enter your name" minlength="2" maxlength="60"
+                autocomplete="name" required />
+
+            <label for="email">Email address</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required />
+
+            <label for="password">Password</label>
+            <input id="password" name="password" type="password" placeholder="At least 8 characters" minlength="8"
+                maxlength="72" autocomplete="new-password" required />
+
+            <p id="signupMessage" class="form-message" role="status"></p>
+            <button class="btn btn-primary auth-submit" type="submit">
+                Create Account ↗
+            </button>
+        </form>
+
+        <p class="auth-switch">Already have an account?
+            <a href="/login.html">Login</a>
+        </p>
+        <a href="/" class="back-link">← Back to portfolio</a>
+    </main>
+</body>
+
+</html>
